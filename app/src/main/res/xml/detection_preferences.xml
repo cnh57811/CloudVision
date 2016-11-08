@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="label"
+        android:title="Label Detection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="text"
+        android:title="Text Detection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="safeSearch"
+        android:title="Safe Search Detection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="face"
+        android:title="Face Detection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="landmark"
+        android:title="Landmark Detection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="logo"
+        android:title="Logo Detection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="image"
+        android:title="Image Properties" />
+</PreferenceScreen>
